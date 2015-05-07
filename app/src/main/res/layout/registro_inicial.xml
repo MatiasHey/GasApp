@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/RegTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese sus datos"
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+            android:id="@+id/RegNombre"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <EditText
+            android:id="@+id/RegTel"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <EditText
+            android:id="@+id/RegDirEntrega"
+            android:layout_height="wrap_content"
+            android:hint="Dirección de entrega"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <EditText
+            android:id="@+id/RegDirApto"
+            android:layout_height="wrap_content"
+            android:hint="Apto"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <EditText
+            android:id="@+id/RegDirEsquina"
+            android:layout_height="wrap_content"
+            android:hint="Esquina"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <EditText
+            android:id="@+id/RegCiudad"
+            android:layout_height="wrap_content"
+            android:hint="Ciudad"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="10dp"
+            android:layout_marginTop="3dp">
+        </EditText>
+        <TextView android:text="Seleccione departamento:" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp" />
+        <Spinner
+            android:id="@+id/RegDepartamento"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:prompt="@string/dptoPrompt"
+            android:entries="@array/dptoList"
+            android:padding="10dp"
+            android:background="@drawable/rounded_rectangle">
+        </Spinner>
+
+        <Button
+            android:id="@+id/RegSiguiente"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/btn_siguiente"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

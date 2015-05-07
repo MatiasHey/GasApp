@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dptoList">
+        <item>@string/departamento1</item>
+        <item>@string/departamento2</item>
+        <item>@string/departamento3</item>
+        <item>@string/departamento4</item>
+        <item>@string/departamento5</item>
+        <item>@string/departamento6</item>
+        <item>@string/departamento7</item>
+        <item>@string/departamento8</item>
+        <item>@string/departamento9</item>
+        <item>@string/departamento10</item>
+        <item>@string/departamento11</item>
+        <item>@string/departamento12</item>
+        <item>@string/departamento13</item>
+        <item>@string/departamento14</item>
+        <item>@string/departamento15</item>
+        <item>@string/departamento16</item>
+        <item>@string/departamento17</item>
+        <item>@string/departamento18</item>
+        <item>@string/departamento19</item>
+    </string-array>
+</resources>

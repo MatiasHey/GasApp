@@ -2,5 +2,29 @@
     <string name="app_name">Gas</string>
 
     <string name="hello_world">Bienvenido a GasApp!</string>
+    <string name="tag_line">La forma mas rapida y divertida de pedir tu garrafa!</string>
     <string name="action_settings">Settings</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!-- Departamentos para selector -->
+    <string name="dptoPrompt">Departamento</string>
+    <string name="departamento1">Montevideo</string>
+    <string name="departamento2">Canelones</string>
+    <string name="departamento3">Maldonado</string>
+    <string name="departamento4">Colonia</string>
+    <string name="departamento5">Artigas</string>
+    <string name="departamento6">Cerro Largo</string>
+    <string name="departamento7">Durazno</string>
+    <string name="departamento8">Flores</string>
+    <string name="departamento9">Florida</string>
+    <string name="departamento10">Lavalleja</string>
+    <string name="departamento11">Paysandú</string>
+    <string name="departamento12">Río Negro</string>
+    <string name="departamento13">Rivera</string>
+    <string name="departamento14">Rocha</string>
+    <string name="departamento15">Salto</string>
+    <string name="departamento16">San José</string>
+    <string name="departamento17">Soriano</string>
+    <string name="departamento18">Tacuarembó</string>
+    <string name="departamento19">Treinta y Tres</string>
 </resources>
