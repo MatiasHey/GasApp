@@ -12,6 +12,12 @@ public class MisDirecciones extends ActionBarActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //TODO recuperar datos de la preferencias
+        //TODO mostrar de las preferencias las direcciones ingresadas
+        //TODO permitir ingresar mas direcciones
+        //TODO permitir cambiar la direccion por defecto? O simplemente recuerde la ultima usada como direccion por defecto
+
     }
 
 }

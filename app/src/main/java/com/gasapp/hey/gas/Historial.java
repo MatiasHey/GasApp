@@ -12,6 +12,7 @@ public class Historial extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //TODO ejecutar consulta de pedidos pero directo al servidor sin pasar por la info local
     }
 
 
