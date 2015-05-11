@@ -31,6 +31,13 @@
             android:name=".RegistroUsuario"
             android:label="RegistroUsuario">
         </activity>
+
+       <activity
+           android:name=".LoginActivity"
+           android:label="Login">
+       </activity>
+
+
     </application>
 
 </manifest>
