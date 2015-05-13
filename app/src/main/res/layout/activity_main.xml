@@ -16,4 +16,22 @@
         android:layout_marginTop="18dp"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Ver Registro Usuario"
+        android:onClick="verRegistroUsuario"
+        android:id="@+id/verRegUsr" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Ver Realizar Pedido"
+        android:onClick="verRealizarPedido"
+        android:id="@+id/verPedido" />
+
 </RelativeLayout>

@@ -5,6 +5,8 @@
     <string name="tag_line">La forma mas rapida y divertida de pedir tu garrafa!</string>
     <string name="action_settings">Settings</string>
     <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_pedido">Realizar Pedido</string>
+    <string name="btn_confirma_pedido">Confirmar Pedido</string>
 
     <!-- Departamentos para selector -->
     <string name="dptoPrompt">Departamento</string>
@@ -27,4 +29,34 @@
     <string name="departamento17">Soriano</string>
     <string name="departamento18">Tacuarembó</string>
     <string name="departamento19">Treinta y Tres</string>
+
+    <!-- Cantidades para selector Pedidos-->
+    <string name="pedidos_cant_prompt">Cantidad</string>
+    <string name="pedidos_cant1">1 garrafa</string>
+    <string name="pedidos_cant2">2 garrafas</string>
+    <string name="pedidos_cant3">3 garrafas</string>
+    <string name="pedidos_cant4">4 garrafas</string>
+    <string name="pedidos_cant5">5 garrafas</string>
+    <string name="pedidos_cant6">6 garrafas</string>
+    <string name="pedidos_cant7">7 garrafas</string>
+    <string name="pedidos_cant8">8 garrafas</string>
+    <string name="pedidos_cant9">9 garrafas</string>
+    <string name="pedidos_cant10">10 garrafas</string>
+
+    <!-- Servicios para selector Pedidos-->
+    <string name="pedidos_serv_prompt">Servicio</string>
+    <string name="pedidos_serv1">Express 30\'</string>
+    <string name="pedidos_serv2">Normal</string>
+    <string name="pedidos_serv3">Semanal</string>
+
+    <!-- Direcciones para selector Pedidos-->
+    <string name="pedidos_dir_prompt">Dirección de Entrega</string>
+    <string name="pedidos_dir1">Mi Casa</string>
+    <string name="pedidos_dir2">Mi Trabajo</string>
+
+    <!-- Formas de pago para selector Pedidos-->
+    <string name="pedidos_pago_prompt">Forma de Pago</string>
+    <string name="pedidos_pago1">Efectivo</string>
+    <string name="pedidos_pago2">Tarjeta</string>
+    <string name="pedidos_pago3">Cheque</string>
 </resources>

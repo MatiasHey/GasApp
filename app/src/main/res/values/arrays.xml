@@ -21,4 +21,30 @@
         <item>@string/departamento18</item>
         <item>@string/departamento19</item>
     </string-array>
+    <string-array name="cantList">
+        <item>@string/pedidos_cant1</item>
+        <item>@string/pedidos_cant2</item>
+        <item>@string/pedidos_cant3</item>
+        <item>@string/pedidos_cant4</item>
+        <item>@string/pedidos_cant5</item>
+        <item>@string/pedidos_cant6</item>
+        <item>@string/pedidos_cant7</item>
+        <item>@string/pedidos_cant8</item>
+        <item>@string/pedidos_cant9</item>
+        <item>@string/pedidos_cant10</item>
+    </string-array>
+    <string-array name="servicioList">
+        <item>@string/pedidos_serv1</item>
+        <item>@string/pedidos_serv2</item>
+        <item>@string/pedidos_serv3</item>
+    </string-array>
+    <string-array name="dirList">
+        <item>@string/pedidos_dir1</item>
+        <item>@string/pedidos_dir2</item>
+    </string-array>
+    <string-array name="pagoList">
+        <item>@string/pedidos_pago1</item>
+        <item>@string/pedidos_pago2</item>
+        <item>@string/pedidos_pago3</item>
+    </string-array>
 </resources>
