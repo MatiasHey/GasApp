@@ -49,6 +49,10 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.realizar_pedido);
     }
 
+    public void verMenu (View view){
+        setContentView(R.layout.menu_opciones);
+    }
+
     public void realizarPedido (View view){
         setContentView(R.layout.confirmar_pedido);
     }

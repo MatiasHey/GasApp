@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f57e20">
+        <TextView
+            android:id="@+id/RegTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textSize="8pt"
+            android:background="#f57e20"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:singleLine="false"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+    </FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fuego_fondo">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".7"
+            android:paddingTop="20dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/menu_ico_garrafa" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="1dp"/>
+
+            <ImageButton android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/menu_ico_mapa"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.30"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Realizar pedido"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#e75025"
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="1dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mis Direcciones"
+                android:gravity="center_horizontal"
+                android:textColor="#e75025"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".7"
+            android:paddingLeft="25dp"
+            android:paddingTop="20dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/menu_ico_calendar"/>
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="1dp"/>
+
+            <ImageButton android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/menu_ico_fuego"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.40"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Historial Pedidos"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#e75025"
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="1dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Formas de Pago"
+                android:gravity="center_horizontal"
+                android:textColor="#e75025"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

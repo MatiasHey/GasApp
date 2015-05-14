@@ -34,4 +34,13 @@
         android:onClick="verRealizarPedido"
         android:id="@+id/verPedido" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Ver Menu"
+        android:onClick="verMenu"
+        android:id="@+id/verMenu" />
+
 </RelativeLayout>
