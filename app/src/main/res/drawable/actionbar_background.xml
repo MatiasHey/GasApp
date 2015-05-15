@@ -5,4 +5,8 @@
         <bitmap android:src="@drawable/fuego_top"
             android:gravity="right" />
     </item>
+    <item>
+        <bitmap android:src="@drawable/gas_icono"
+            android:gravity="center" />
+    </item>
 </layer-list>
