@@ -11,7 +11,7 @@ public class ConfirmacionPedido extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.confirmar_pedido);
         //TODO Mas allá de mostrar la confirmación requiere un ok de la contraparte? O solo queda pendiente la notificacion
     }
 

@@ -38,7 +38,8 @@
             <ImageButton android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@drawable/menu_ico_garrafa" />
+                android:background="@drawable/menu_ico_garrafa"
+                android:id="@+id/btPedido"/>
 
             <Space
                 android:layout_width="50dp"
@@ -47,7 +48,8 @@
             <ImageButton android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@drawable/menu_ico_mapa"/>
+                android:background="@drawable/menu_ico_mapa"
+                android:id="@+id/btnMisDirecciones" />
         </LinearLayout>
 
         <LinearLayout
@@ -91,7 +93,8 @@
             <ImageButton android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@drawable/menu_ico_calendar"/>
+                android:background="@drawable/menu_ico_calendar"
+                android:id="@+id/btnHistorial" />
 
             <Space
                 android:layout_width="50dp"
@@ -100,7 +103,8 @@
             <ImageButton android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@drawable/menu_ico_fuego"/>
+                android:background="@drawable/menu_ico_fuego"
+                android:id="@+id/btnFormasDePago" />
         </LinearLayout>
 
         <LinearLayout

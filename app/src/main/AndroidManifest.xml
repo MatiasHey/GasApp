@@ -27,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".RegistroUsuario"
             android:label="RegistroUsuario">
@@ -36,6 +37,25 @@
            android:name=".LoginActivity"
            android:label="Login">
        </activity>
+
+       <activity android:name=".AgregarUsuario"
+           android:label="Agregar Usuario"
+           android:parentActivityName=".MainActivity">
+
+       </activity>
+
+        <activity
+            android:name=".Pedido"
+            android:label="Ingresar Pedido"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+    <activity android:name=".ConfirmacionPedido"
+        android:label="Agregar Usuario"
+        android:parentActivityName=".Pedido">
+
+    </activity>
 
 
     </application>

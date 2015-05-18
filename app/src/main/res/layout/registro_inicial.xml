@@ -38,7 +38,7 @@
             <!--Put form controls here-->
 
             <EditText
-                android:id="@+id/RegNombre"
+                android:id="@+id/etRegNombre"
                 android:layout_height="wrap_content"
                 android:hint="Nombre"
                 android:inputType="textPersonName"
@@ -48,7 +48,7 @@
                 android:layout_marginTop="3dp">
             </EditText>
             <EditText
-                android:id="@+id/RegTel"
+                android:id="@+id/etRegTel"
                 android:layout_height="wrap_content"
                 android:hint="Teléfono"
                 android:inputType="phone"
@@ -115,7 +115,7 @@
             </Spinner>
 
             <Button
-                android:id="@+id/RegSiguiente"
+                android:id="@+id/btnRegSiguiente"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/btn_siguiente"

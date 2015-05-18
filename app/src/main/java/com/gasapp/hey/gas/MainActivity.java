@@ -1,22 +1,68 @@
 package com.gasapp.hey.gas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends ActionBarActivity {
 
+    private ImageButton btnPedido,btnMisDirecciones,btnHistorial,btnFormasDePago;
+    public static String TAG="GasApp";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.menu_opciones);
 
+        btnPedido=(ImageButton)findViewById(R.id.btPedido);
+        btnMisDirecciones=(ImageButton)findViewById(R.id.btnMisDirecciones);
+        btnHistorial=(ImageButton)findViewById(R.id.btnHistorial);
+        btnFormasDePago=(ImageButton)findViewById(R.id.btnFormasDePago);
 
+        btnPedido.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG,"Entro al boton..");
+                Intent goTOPedido = new Intent(MainActivity.this, Pedido.class);
+                startActivity(goTOPedido);
+            }
+        });
+
+        btnMisDirecciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG,"Entro al boton..");
+                Intent goTOMisDirecciones = new Intent(MainActivity.this, AgregarUsuario.class);
+                startActivity(goTOMisDirecciones);
+            }
+        });
+
+        btnHistorial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG,"Entro al boton..");
+                Intent goTOHistorial = new Intent(MainActivity.this, AgregarUsuario.class);
+                startActivity(goTOHistorial);
+            }
+        });
+
+        btnFormasDePago.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG,"Entro al boton..");
+                Intent goTOPago = new Intent(MainActivity.this, AgregarUsuario.class);
+                startActivity(goTOPago);
+            }
+        });
 
     }
+
 
 
     @Override

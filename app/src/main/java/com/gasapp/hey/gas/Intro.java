@@ -37,7 +37,7 @@ public class Intro extends ActionBarActivity{
             if (id == "noID") {
                 Log.v(TAG, "no se encontro Usuario registrado");
                 // ir a actividad de registro
-                Intent goToRegistroUsuario = new Intent(Intro.this, LoginActivity.class);
+                Intent goToRegistroUsuario = new Intent(Intro.this, AgregarUsuario.class);
                 startActivity(goToRegistroUsuario);
 
             } else {
