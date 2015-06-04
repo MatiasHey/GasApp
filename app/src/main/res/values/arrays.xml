@@ -21,6 +21,11 @@
         <item>@string/departamento18</item>
         <item>@string/departamento19</item>
     </string-array>
+    <string-array name="distList">
+        <item>"Acodike"</item>
+        <item>"RioGas"</item>
+        <item>"Ancap"</item>
+    </string-array>
     <string-array name="cantList">
         <item>@string/pedidos_cant1</item>
         <item>@string/pedidos_cant2</item>

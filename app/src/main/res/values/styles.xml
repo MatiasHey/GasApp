@@ -9,9 +9,11 @@
     <style name="GasActionBarTheme"
         parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!--<item name="android:spinnerItemStyle">@style/SpinnerItem</item>-->
 
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>
+        <!--<item name="spinnerStyle">@style/SpinnerItem</item>-->
     </style>
 
     <!-- ActionBar styles -->
@@ -27,6 +29,12 @@
     </style>
 
     <color name="actionbar_background">#fed410</color>
+
+    <style name="SpinnerItem"
+        parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
 
 
 </resources>

@@ -114,6 +114,23 @@
                 android:background="@drawable/rounded_rect_spinner">
             </Spinner>
 
+            <TextView android:text="Distribuidor de preferencia:" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp" />
+            <Spinner
+                android:id="@+id/RegDistribuidor"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:prompt="@string/distPrompt"
+                android:entries="@array/distList"
+                android:padding="10dp"
+                android:background="@drawable/rounded_rect_spinner">
+            </Spinner>
+
             <Button
                 android:id="@+id/btnRegSiguiente"
                 android:layout_height="wrap_content"

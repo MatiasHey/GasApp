@@ -34,7 +34,7 @@ public class Intro extends ActionBarActivity{
 
             prefs = getSharedPreferences(prefName, MODE_PRIVATE);
             id = prefs.getString("id", "noID");
-            if (id == "noID") {
+            /*if (id == "noID") {
                 Log.v(TAG, "no se encontro Usuario registrado");
                 // ir a actividad de registro
                 Intent goToRegistroUsuario = new Intent(Intro.this, AgregarUsuario.class);
@@ -46,8 +46,9 @@ public class Intro extends ActionBarActivity{
                 Intent goTOMainActivity = new Intent(Intro.this, MainActivity.class);
                 startActivity(goTOMainActivity);
 
-            }
-
+            }*/
+            Intent goTOMainActivity = new Intent(Intro.this, MainActivity.class);
+            startActivity(goTOMainActivity);
         } else {
             Log.v(TAG, "Sin conexión a internet");
             Toast.makeText(this, "sin conexion", Toast.LENGTH_LONG).show();

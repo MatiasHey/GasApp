@@ -58,5 +58,7 @@
     <string name="pedidos_pago_prompt">Forma de Pago</string>
     <string name="pedidos_pago1">Efectivo</string>
     <string name="pedidos_pago2">Tarjeta</string>
-    <string name="pedidos_pago3">Cheque</string>
+    <string name="pedidos_pago3">Otro</string>
+
+    <string name="distPrompt">Distribuidor</string>
 </resources>
