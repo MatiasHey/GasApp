@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Log.v(TAG,"Entro al boton..");
-                Intent goTOHistorial = new Intent(MainActivity.this, AgregarUsuario.class);
+                Intent goTOHistorial = new Intent(MainActivity.this, Historial.class);
                 startActivity(goTOHistorial);
             }
         });
