@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Log.v(TAG,"Entro al boton..");
-                Intent goTOPago = new Intent(MainActivity.this, AgregarUsuario.class);
+                Intent goTOPago = new Intent(MainActivity.this, FormasPago.class);
                 startActivity(goTOPago);
             }
         });

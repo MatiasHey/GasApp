@@ -58,6 +58,13 @@
 
         </activity>
 
+        <activity
+            android:name=".FormasPago"
+            android:label="Formas de Pago"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
     <activity android:name=".ConfirmacionPedido"
         android:label="Agregar Usuario"
         android:parentActivityName=".Pedido">
